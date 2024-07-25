@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta htpp-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1625c039b4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="WhatsApp Image 2024-07-20 at 19.03.38 (1).jpeg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contect</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <pr>Frontend Developer</pr>
+            <h1>Hi, I'am<br>Shubham Vernekar</h1>
+        </div>
+    </div>
+</div>
+<!-----------------About--------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="WhatsApp Image 2024-07-20 at 19.03.39 (3).jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a third-year B.Tech student specializing in Electronics and Computer Engineering at MIT ADT University, Loni Kalbhor. My technical skills include C++, frontend development, and SQL. I am passionate about integrating hardware and software to create innovative solutions. Looking forward to connecting with professionals and exploring opportunities in software development and systems engineering.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web development</span><br>frontend developnment</li>
+                        <li><span>Database Management</span><br>SQL</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2022-2026</span><br>Btech From MIT ADT University</li>
+                        <li><span>2022</span><br>12th From Shree Damodar Higher secondary school of science,Goa</li>
+                        <li><span>2020</span><br>10th From Shree Nirakar Vidhyalaya,Goa</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span></span><br></li>
+                        <li><span></span><br></li>
+                        <li><span></span><br></li>
+                    </ul>
+                </div>     
+            </div>
+        </div>
+    </div>
+</div>
+   
+<!-------------services---------------->
+
+    <section id="certificates">
+        <h1 class="sub-title">My Certificate</h1>
+        <div class="certificate-list">
+            <div class="certificate-item">
+                <img src="WhatsApp Image 2024-07-20 at 19.03.42.jpeg" alt="Certificate 1">
+                <p>Certificate 1</p>
+            </div>
+            <div class="certificate-item">
+                <img src="WhatsApp Image 2024-07-20 at 19.03.42.jpeg" alt="Certificate 2">
+                <p>Certificate 2</p>
+            </div>
+            <div class="certificate-item">
+                <img src="WhatsApp Image 2024-07-20 at 19.03.42.jpeg" alt="Certificate 3">
+                <p>Certificate 3</p>
+            </div>
+            <div class="certificate-item">
+                <img src="Screenshot 2024-06-13 at 1.23.06 PM.png" alt="Certificate 3">
+                <p>Certificate 3</p>
+            </div>
+            <div class="certificate-item">
+                <img src="Screenshot 2024-06-13 at 1.23.06 PM.png" alt="Certificate 3">
+                <p>Certificate 3</p>
+            </div>
+            <div class="certificate-item">
+                <img src="Screenshot 2024-06-13 at 1.23.06 PM.png" alt="Certificate 3">
+                <p>Certificate 3</p>
+            </div>
+            <div class="certificate-item">
+                <img src="Screenshot 2024-06-13 at 1.23.06 PM.png" alt="Certificate 3">
+                <p>Certificate 3</p>
+            </div>
+            <div class="certificate-item">
+                <img src="Screenshot 2024-06-13 at 1.23.06 PM.png" alt="Certificate 3">
+                <p>Certificate 3</p>
+            </div>
+            
+            <!-- Add more certificates as needed -->
+        </div>
+    </section>
+
+    <!-- Other content of your portfolio -->
+</body>
+</html>
+
+<!--------------portfolio------------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="WhatsApp Image 2024-07-20 at 19.03.43 (1).jpeg">
+                <div class="layer">
+                    <h3>Visitor Counter</h3>
+                    <p>For my college mini project 1, I created a visitor counter using basic electronic components. IR sensors detect movements, and a 555 Timer IC debounces the signals. A 74LS90 counter IC tracks the visitor count, which is displayed on a 7-segment display. This project highlights my skills in practical electronics and circuit design.<p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="WhatsApp Image 2024-07-20 at 19.03.43 (2).jpeg">
+                <div class="layer">
+                    <h3>Water Flow Meter</h3>
+                    <p>For my college mini project 2, I developed a water flow meter using an Arduino. The system measures water flow through a sensor connected to the Arduino, which processes the data to calculate the flow rate. The results are displayed on an LCD screen. <p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="WhatsApp Image 2024-07-20 at 19.03.43.jpeg">
+                <div class="layer">
+                    <h3>calculator</h3>
+                    <p>For my college mini project, I developed a water flow meter using an Arduino. The system measures water flow through a sensor connected to the Arduino, which processes the data to calculate the flow rate. The results are displayed on an LCD screen. <p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!----------contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1>Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>shubhamvernekar450@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9322759499</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/_shubhamvernekar?igsh=Mmw0amVlcWRhYXAz"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/shubham-vernekar-71993a258/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://github.com/Shubhamver45"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Untitled document (10).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="copyright">
+            <p>Copyright @  Shubham Vernekar</p>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+
+</script>
+
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzpBFhkZu1jkth8MrHDzzkzg8Q2PYINV1qg0u82x3aOCT2wtE7vTvN7Du4hiQIv82xI/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
